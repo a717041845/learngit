@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+    .test{
+        width: 300px;
+        height: 150px;
+        background-color: aquamarine;
+        margin-top: 1px;
+    }
+    </style>
+    <script type="text/javascript">
+    window.onload=function(){
+        var btn=document.getElementsByTagName("button")[0];
+        var outBox=document.getElementsByClassName("test")[0];
+        btn.onclick=function(){
+            active(outBox,"1px","35px",4)
+        };
+        function active(elm,strMT,actMT,speed){
+            var box=elm;
+            // var startHeight=parseInt(box.style.marginTop);
+            // console.log(startHeight);
+            box.style.marginTop=actMT;
+            var height=parseInt(box.style.marginTop);           
+            console.log(height);
+            var timer=setInterval(function(){
+                height=height-speed;
+                box.style.marginTop=height+"px";
+                console.log(height);
+                if(height<=parseInt(strMT)){
+                    clearInterval(timer);
+                }
+            },10);
+
+        }
+        
+
+    }
+    </script>
+</head>
+<body>
+    <button>点我一下</button>
+    <div class="test"></div>
+    
+</body>
+</html>

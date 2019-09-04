@@ -1,0 +1,504 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(..\style\JTURjIg1_i6t8kCHKm45_aZA3gTD_u50.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  } */
+
+body{
+    /* height: 5000px; */
+    width: 1903px;
+    background: url(../img/cc-bg-1.jpg) repeat-x;
+}
+
+/* 清除浮动 */
+/* .clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+
+.top{
+    height: 62px;
+    width: 100%;
+    background-color:transparent;
+    position: fixed;
+    left:0px;
+    top: 0px;
+    z-index:999;
+}
+
+.top2{
+    background-color: #378c3f;
+    /* height: 62px;
+    width: 100%; */
+    /* background-color:transparent; */
+    /* position: fixed;
+    left:0px;
+    top: 0px;
+    z-index:999; */
+}
+
+.top .Navigation_bar{
+    width:1100px;
+    height: 42px;
+    /* background-color: aqua; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 396px;
+    line-height: 42px;
+    
+    /* font-family: 'Montserrat'; */
+    
+} 
+
+.navigation1{
+    /* display: inline-block; */
+    /* text-align: center; */
+    float: left;
+    /* font-style: normal; */
+    text-decoration: none;
+    /* font-family: 'Montserrat'; */
+    font-size: 18px;
+    color: #dadadb;
+}
+
+.navigation{
+    list-style-type: none;
+    float: right;
+    
+    
+}
+.navigation li{
+    display: inline-block;
+    /* background: yellowgreen; */
+    padding: 0px 11px 0px 11px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    /* font-family: 'Montserrat'; */
+    color: #dadadb;
+    font-size: 18px;
+}
+.navigation li a:hover{
+    color: #fff;
+}
+
+
+/* -------------------------------------------------------- */
+
+.information{
+    width: 1100px;
+    height: 500px;
+    /* background-color: #dadadb; */
+    margin-top: 62px;
+    margin-left: 396px;
+    /* position: relative;
+    left:396px;
+    top: 62px;  */
+}
+.information .picture{
+    height: 220px;
+    width: auto;
+    /* background-color: blue; */
+    padding-top: 85px;
+}
+
+.picture .portrait{
+    height: 180px;
+    width: 180px;
+    /* background-color: blueviolet; */
+    margin-left: 460px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.myInformation h1{
+    text-align: center;
+    color: white;
+    line-height: 75px;
+}
+.myInformation p{
+    text-align: center;
+    color: white;
+}
+.myInformation .outBtn{
+    text-align: center;
+    margin-top: 33px;
+}
+
+.outBtn .likeBtn{
+    width: 140px;
+    height: 38px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:transparent;
+    border-radius: 10px;
+    background-color: #378c3f;
+    display: inline-block;
+
+}
+.likeBtn a{
+    font-style: normal;
+    font-size: 15px;
+    color: #dadadb;;
+    text-decoration: none;
+    line-height: 38px;
+}
+.likeBtn a:hover{
+    color: #fff;
+}
+
+.likeBtn:hover{
+    background-color: #41a84c;
+}
+
+
+/* ------------------------------------------------------------- */
+
+.third{
+    width: 1100px;
+    height:68px;
+    margin-left: 396px;
+    margin-top: 33px;
+    /* background-color: antiquewhite; */
+}
+.third .callMe{
+    text-align: center;
+}
+
+.callMe .callBtn{
+    display: inline-block;
+    border-style: solid;
+    border-color:transparent;
+    border-width: 1px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* --------------------------------------------------------------- */
+.fourth{
+    width: auto;
+    height: 360px;
+    /* background-color: black; */
+    padding-top: 5px;
+}
+
+.aboutMe{
+    height: 258px;
+    /* text-align: center; */
+    margin-top: 50px;
+    position: relative;
+    margin-left: 396px;
+    margin-right: 397px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 0px 18px 3px #e4e4e4;
+}
+    
+.aboutMe .about{
+    width: 496px;
+    height: 238px;
+    /* display: inline-block; */
+    /* background-color: brown; */
+    padding: 10px 50px 10px 10px;
+    position: absolute;
+    /* left: 396px; */
+    /* border-style: solid;
+    border-color: transparent; */
+    /* border-width: 1px;
+    border-radius: 5px;
+    border-right-style: none;
+    box-shadow: 0px 0px 5px 1px #e3e3e3;
+     */
+
+}
+.aboutMe .message{
+    width: 536px;
+    height: 238px;
+    /* display: inline-block; */
+    /* background-color: brown; */
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    right: 0px;
+    /* margin-top: 0px; */
+    /* border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: 5px;
+    border-left-style: none;
+    box-shadow: 5px 0px 5px 1px #e3e3e3; */
+} 
+.about div { 
+    display: block; 
+    margin-top: 20px; 
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);  */
+}
+
+
+
+.about div .title{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 53px;
+}
+/* .about div .text{
+    line-height:30px: 
+} */
+.message div .title{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 90px;
+}
+.message dl dt{
+    width: 176px;
+    height: 21px;
+    float: left;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.message dl dd{
+    width: 354px;
+    height: 21px;
+    float: right;
+    /* display: inline-block; */
+    margin-bottom: 15px;
+}
+
+/* ----------------------------------------------------------- */
+
+.fifth{
+    height: 450px;
+    width: auto;
+    /* background-color:skyblue; */
+}
+.fifth h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+.fifth div{
+    width: 1110px;
+    height: 238px;
+    /* background-color: burlywood; */
+    position: relative;
+    left: 396px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 0px 18px 3px #e4e4e4;
+    /* padding: 0 10px 0 10px; */
+}
+.skills dt{
+    width: 520px;
+    height: 41px;
+    /* background-color: silver; */
+    line-height: 41px;
+    margin-top: 18px;
+    margin-left: 0px;
+    /* display: inline-block; */
+    /* padding: 0 10px 0 10px; */
+    /* margin: 0 10px 0 10px; */
+}
+
+.skills dt p{
+    display: inline-block;
+    float: right;
+}
+
+ .rightDl{
+    /* float: right;
+    clear: both; */
+    position: absolute;
+    right: 10px;
+}
+ .leftDl{
+    /* float: left; */
+    position: absolute;
+    left: 10px;
+}
+
+/* --------------------------------------------------------------- */
+
+.sixth{
+    width: auto;
+    height: 870px;
+    /* background-color: burlywood; */
+    padding-top: 40px;
+    position: relative;
+}
+
+.sixth h2{
+    text-align: center;
+    font-size: 30px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+
+.sixth .out{
+    width: 548px;
+    height: 745px;
+    /* background-color: coral; */
+    /* position: absolute; */
+    /* border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+    padding: 0 10px 0 10px;
+}
+
+.sixth .PhotoL{
+    position: absolute;
+    left: 391px;
+}
+.sixth .PhotoR{
+    position: absolute;
+    right: 380px;
+}
+.PhotoL .photo1{
+    width: 540px;
+    height: 353px;
+    /* background: url(..\img\photo1.jpg) */
+    overflow: hidden;
+}
+.PhotoL .photo2{
+    width: 540px;
+    height: 360px;
+    /* background-color: #b3a928; */
+    margin-top: 20px;
+    overflow: hidden;
+}
+.PhotoR .photo3{
+    width: 540px;
+    height: 326px;
+    /* background-color: #1b8ab6; */
+    overflow: hidden;
+}
+.PhotoR .photo4{
+    width: 540px;
+    height: 359px;
+    /* background-color: #d31a86; */
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* ------------------------------------------------------------- */
+
+.seventh{
+    width: auto;
+    height: 800px;
+    /* background-color: darkgoldenrod; */
+    padding-top: 40px;
+    /* position: relative; */
+}
+.seventh h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.seventh .education{
+    width: 1100px;
+    height: 150px;
+    /* background-color: aquamarine; */
+    border: solid 1px  #000000;
+    /* position: absolute; */
+    /* left: 396px; */
+    margin-left: 396px;
+    margin-bottom: 20px;
+    /* position: relative; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 0px 18px 3px #e4e4e4;
+}
+.education .eduL{
+    width: 270px;
+    height: 150px;
+    float: left;
+    background-color: #378c3f;
+}
+.education .eduR{
+    width: 830px;
+    height: 150px;
+    float: right;
+    /* background-color: rgb(236, 8, 8); */
+}
+.eduL h3{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.eduR p{
+    font-size: 18px;
+    line-height: 28px;
+    display: block;
+    /* margin-top: 35px;
+    margin-left: 15px; */
+    margin: 35px 15px 0px 15px;
+}
+
+/* ----------------------------------------------------- */
+
+.eighth{
+    margin-top: 200px;
+    width: 1903px;
+}
+
+/* ------------------------------------------------------ */
+
+.footer{
+    margin-top: 30px;
+    width: 1903px;
+    height: 150px;
+    /* background-color: blueviolet; */
+    /* text-align: center; */
+    position: relative;
+}
+
+.footer h2{
+    font-size: 20px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.footer p{
+    display: block;
+    /* float: left; */
+    position:absolute;
+    left: 1009px;
+    /* top: 5px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
