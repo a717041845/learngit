@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .out{
+        width: 590px;
+        height: 470px;
+        margin: 50px auto;
+        border: 1px solid red;
+        
+        overflow: hidden;
+    }
+    .imgS{
+        animation: roll 5s linear infinite;
+        display: flex;
+    }
+    .imgS:hover{
+        animation-play-state: paused;
+    }
+    @keyframes roll{
+        from{
+            transform:translateX(0);
+        }
+        to{
+            transform:translateX(-400%);
+        }
+    }
+    </style>
+</head>
+<body>
+    <!-- 自动轮播图练习 -->
+    <div class="out">
+        <ul class="imgS">
+                <li class="img"><img src="https://img11.360buyimg.com/babel/s590x470_jfs/t1/70341/26/9587/94115/5d72767fE8dde80fb/7775463e1f1f0f80.jpg.webp" alt=""></li>
+                <li class="img"><img src="https://img11.360buyimg.com/da/s590x470_jfs/t1/47891/4/9892/101200/5d70540cE0a7ff837/542963e2ae41329c.jpg.webp" alt=""></li>
+                <li class="img"><img src="https://img30.360buyimg.com/da/s590x470_jfs/t1/42416/11/13444/79670/5d674b50Ea8521bb4/0b7f8fc25382cafe.jpg.webp" alt=""></li>
+                <li class="img"><img src="https://imgcps.jd.com/ling/43556115635/57qz6JaH5LyY6ZuF6KOZ6KOF/5rWq5ryr5aWz5Lq65rCU6LSo5Yqg5YiG/p-5bd8253082acdd181d02fa50/713be23f.jpg" alt=""></li>
+                <li class="img"><img src="https://img11.360buyimg.com/babel/s590x470_jfs/t1/70341/26/9587/94115/5d72767fE8dde80fb/7775463e1f1f0f80.jpg.webp" alt=""></li>
+                <!-- <li class="img"><img src="https://img11.360buyimg.com/da/s590x470_jfs/t1/47891/4/9892/101200/5d70540cE0a7ff837/542963e2ae41329c.jpg.webp" alt=""></li> -->
+        </ul>
+    </div>
+</body>
+</html>
